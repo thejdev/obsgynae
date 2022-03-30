@@ -54,6 +54,28 @@ kramdown:
     block:
       line_numbers: false
 
+# Define Jekyll collections
+collections:
+  clinical-resources:
+    permalink: "/:collection/:path:output_ext"
+    output: true
+  TheObsgynaePod:
+    permalink: "/:collection/:path:output_ext"
+    output: true
+
+just_the_docs:
+  clinical-resources:
+    tests:
+      name: Clinical resources
+      nav_exclude: false
+      nav_fold: true
+      search_exclude: false
+    TheObsgynaePod:
+      name: TheObsgynaePod
+      nav_exclude: false
+      nav_fold: true
+      search_exclude: false
+
 compress_html:
   clippings: all
   comments: all
