@@ -22,6 +22,16 @@ heading_anchors: true
 aux_links:
   "Obsgynae on GitHub":
     - "https://github.com/obsgynae"
+aux_links_new_tab: true
+    
+# Sort order for navigation links
+nav_sort: case_sensitive # Capital letters sorted before lowercase
+
+# Include links to parent and sibling pages when showing the automatic TOC. Default is false
+nav_next_prev: true
+
+# Caching navigation links
+nav_cache: true # default, equivalent to nil
 
 # Footer content appears at the bottom of every page's main content
 footer_content: "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png\" /></a><br />This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. <br>Theme copyright &copy; 2017-2019 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
